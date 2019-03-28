@@ -5,11 +5,6 @@ import { compose, mapProps, withHandlers, branch, renderComponent } from 'recomp
 import './css/App.css'
 import {Home, CV, Research, Contact} from './Content.js'
 
-class Placeholder extends React.Component{
-    render() {
-        return (<div>"Hello World! Placeholder"</div>)
-    }
-}
 
 const MainContentContainer = () => (
     <div id="main-content-container">

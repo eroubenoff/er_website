@@ -18,7 +18,7 @@ const HeaderContainer = ({
             <Link to="">Ethan Roubenoff</Link>
         </div>
 
-	<Menu style={{display: 'inline-block', float: 'right', marginRight: '100px'}}
+	<Menu style={{display: 'inline-block', width:'360px', float: 'right'}}
                     mode="horizontal"
 		    onClick={onDisplayChange}>
 	    <Menu.Item key="cv">CV</Menu.Item>

@@ -3,7 +3,10 @@ import { Redirect, Switch, Route } from 'react-router-dom'
 import { Breadcrumb, Radio, Tooltip, Modal, Button, Checkbox} from 'antd'
 import { compose, mapProps, withHandlers, branch, renderComponent } from 'recompose'
 import './css/App.css'
-import {Home, CV, Research, Contact} from './Content.js'
+import Home from './Home.js'
+import CV from './CV.js'
+import Research from './Research.js'
+import Contact from './Contact.js'
 
 
 const MainContentContainer = () => (

@@ -1,8 +1,3 @@
-.home-page_map {
-   // width: 100%;
-    height: 100%;
-}
-
 #header {
     background-color: "#a8abaf";
     height: 50px;
@@ -13,12 +8,14 @@
 }
 
 #main-content {
+    padding-top:20px;
     width : 960px;
     margin: auto;
+    min-height: 600px;
 }
 
 #footer {
-    position:fixed;
+    position:relative;
     text-align: center;
     background-color: "#a8abaf";
     height: 50px;
@@ -28,11 +25,11 @@
 }
 
 #home-text{
-    margin-top: 200px;
-    width: 30%;
+    width: 350px;
     float:right;
-    margin:auto;
+    margin-left:50px;
     height: 200px;
+    font-size: 10pt;
 }
 
 #home_img {
@@ -43,5 +40,9 @@
 
 i {
     font-size: 50px;
+}
+
+Card {
+    height: 200px;
 }
 

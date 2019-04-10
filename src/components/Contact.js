@@ -10,13 +10,16 @@ export default () =>  (
     <div style={{padding:'30px', textAlign:'center'}}>
      <Row gutter={16}>    
     <Col span={6}>
+        <a href="mailto:eroubenoff@gmail.com">
         <Card style ={cardStyle} >
             <Icon type="inbox" />
             <br />
             eroubenoff@berkeley.edu
         </Card>
+        </a>
     </Col>
     <Col span={6}>
+        <a href="https://www.site.demog.berkeley.edu/">
         <Card style = {cardStyle}>
             <Icon type="mail" />
             <br />
@@ -26,20 +29,25 @@ export default () =>  (
             <br />
             Berkeley, CA
         </Card>
+        </a>
     </Col>
     <Col span={6}>
+        <a href="https://github.com/eroubenoff">
         <Card style = {cardStyle} >
             <Icon type="github" />
             <br />
             https://github.com/eroubenoff
         </Card>
+        </a>
     </Col>
     <Col span={6}>
+        <a href="https://www.site.demog.berkeley.edu/">
         <Card style = {cardStyle}>
             <Icon type="linkedin" />
             <br />
             https://www.linkedin.com/in/ethan-roubenoff-263a91115/
         </Card>
+        </a>
     </Col>
     </Row>
     </div>

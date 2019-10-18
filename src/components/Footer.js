@@ -6,7 +6,7 @@ import './css/App.css'
 const RadioButton = Radio.Button
 const RadioGroup = Radio.Group
 
-
+const footerstyle = {color:"rgb(0, 0, 0, 0.65)"}
 
 const Footer = () => (
     <div id="footer" style={{minHeight:'48px'}}>

@@ -4,13 +4,13 @@ import { Breadcrumb, Icon, Radio, Tooltip, Card, Button, Checkbox, Row, Col} fro
 import { compose, mapProps, withHandlers, branch, renderComponent } from 'recompose'
 import './css/App.css'
 
-const cardStyle = {height:'200px'}
+const cardStyle = {height:'180px', color:'rgb(0, 0, 0, 0.65)'}
 
 export default () =>  (
     <div style={{padding:'30px', textAlign:'center'}}>
      <Row gutter={16}>    
     <Col span={6}>
-        <a href="mailto:eroubenoff@gmail.com">
+        <a href="mailto:eroubenoff@berkeley.edu">
         <Card style ={cardStyle} >
             <Icon type="inbox" />
             <br />
@@ -41,9 +41,10 @@ export default () =>  (
         </a>
     </Col>
     <Col span={6}>
-        <a href="https://www.site.demog.berkeley.edu/">
+        <a href="https://www.linkedin.com/in/ethan-roubenoff-263a91115/" >
         <Card style = {cardStyle}>
-            <Icon type="linkedin" />
+         <Icon type="linkedin" />           
+         <img src={"./LI-In-Bug.png"} /> 
             <br />
             https://www.linkedin.com/in/ethan-roubenoff-263a91115/
         </Card>

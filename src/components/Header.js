@@ -15,15 +15,16 @@ const HeaderContainer = ({
 }) => (
     <div id="header" style={{minHeight:'48px'}}>
 	<div style={{minWidth:'130px', marginRight:'10px', display:'inline-block'}}>
-            <Link to="">Ethan Roubenoff</Link>
+            <Link to="" style={{color:'rgb(0, 0, 0, 0.65)'}}>Ethan Roubenoff</Link>
         </div>
 
-	<Menu style={{display: 'inline-block', width:'360px', float: 'right'}}
+	<Menu style={{display: 'inline-block',float: 'right'}}
                     mode="horizontal"
 		    onClick={onDisplayChange}>
 	    <Menu.Item key="cv">CV</Menu.Item>
 	    <Menu.Item key="research">Research</Menu.Item>
 	    <Menu.Item key="contact">Contact</Menu.Item>
+            <Menu.Item key="teaching">Teaching</Menu.Item>
 	</Menu>
     </div>
 )

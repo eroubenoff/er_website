@@ -7,6 +7,7 @@ import Home from './Home.js'
 import CV from './CV.js'
 import Research from './Research.js'
 import Contact from './Contact.js'
+import Teaching from './Teaching.js'
 
 
 const MainContentContainer = () => (
@@ -16,6 +17,7 @@ const MainContentContainer = () => (
             <Route exact path="/cv/" component={CV}/>
             <Route exact path="/research/" component={Research}/>
             <Route exact path="/contact/" component={Contact}/>
+            <Route exact path="/teaching/" component={Teaching}/>
         </Switch>
     </div>
 )

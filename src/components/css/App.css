@@ -32,6 +32,10 @@
     font-size: 10pt;
 }
 
+p {
+    font-size: 10pt;
+}
+
 #home_img {
     float: left;
     width: 560px;

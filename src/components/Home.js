@@ -18,6 +18,10 @@ export default () => (
         </p>
         <br />
         <p>
+        I am researcher with the <a href="https://bimi.berkeley.edu/">Berkeley Interdisciplinary Migration Initiative</a> working on the <a href = "https://bimi.berkeley.edu/mapping-spatial-inequality">Mapping Spatial Inequality</a> project.  I have previously been affiliated with the <a href="mortality.org">Human Mortality Database</a>.
+        </p>
+        <br />
+        <p>
         Previous research includes: pattern analysis of income and race clustering around Chicago CTA stations; Chicago spatial voter information collection, display, and analysis with the <a href="http://www.cdp.northwestern.edu"> Chicago Democracy Project</a>; and the role of doctor-patient relationships in breast cancer treatment efficacy.
     </p>
     </div>

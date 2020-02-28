@@ -23,6 +23,7 @@ const HeaderContainer = ({
 		    onClick={onDisplayChange}>
 	    <Menu.Item key="cv">CV</Menu.Item>
 	    <Menu.Item key="research">Research</Menu.Item>
+	    <Menu.Item key="blog">Blog</Menu.Item>
 	    <Menu.Item key="contact">Contact</Menu.Item>
             <Menu.Item key="teaching">Teaching</Menu.Item>
 	</Menu>
